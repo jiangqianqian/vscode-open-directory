@@ -1,7 +1,7 @@
 {
   "name": "statusbar-open-directory",
   "displayName": "打开文件目录",
-  "publisher": "jiangqianqian",
+  "publisher": "qianJiang",
   "icon": "images/icon.png",
   "repository": "https://github.com/jiangqianqian/vscode-open-directory",
   "description": "A statusBar item, It can open the current directory",
