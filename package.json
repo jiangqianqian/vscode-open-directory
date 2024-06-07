@@ -1,0 +1,33 @@
+{
+  "name": "statusbar-open-directory",
+  "displayName": "打开文件目录",
+  "publisher": "jiangqianqian",
+  "icon": "images/icon.png",
+  "repository": "https://github.com/jiangqianqian/vscode-open-directory",
+  "description": "A statusBar item, It can open the current directory",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "workspaceContains:**/.editorconfig"
+  ],
+  "main": "./extension.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.89.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}

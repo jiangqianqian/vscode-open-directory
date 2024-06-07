@@ -1,0 +1,11 @@
+vsc-extension-quickstart.md
+CHANGELOG.md
+package-lock.json
+
+node_modules
+test
+
+.vscode*
+.DS_Store
+
+*.vsix
